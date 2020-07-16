@@ -57,7 +57,9 @@ public class BulletinView extends ViewFlipper implements View.OnClickListener {
             addView(view);
             view.setOnClickListener(this);
         }
-        startFlipping();
+        if (adapter.getCount()>1){
+            startFlipping();
+        }
     }
 
     @Override

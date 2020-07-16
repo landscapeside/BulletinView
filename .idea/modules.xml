@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BulletinView.iml" filepath="$PROJECT_DIR$/BulletinView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/BulletinView-app.iml" filepath="$PROJECT_DIR$/app/BulletinView-app.iml" group="BulletinView/app" />
+      <module fileurl="file://$PROJECT_DIR$/library/BulletinView-library.iml" filepath="$PROJECT_DIR$/library/BulletinView-library.iml" group="BulletinView/library" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects-BulletinView.iml" filepath="$PROJECT_DIR$/projects-BulletinView.iml" group="BulletinView" />
     </modules>
   </component>
 </project>

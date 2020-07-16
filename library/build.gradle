@@ -1,5 +1,8 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.landscapeside.bulletinview'
 
 android {
     compileSdkVersion 25
@@ -20,16 +23,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    // JCenter
-    // gradlew clean build bintrayUpload -PbintrayUser=BINTRAY_USERNAME -PbintrayKey=BINTRAY_KEY -PdryRun=false
-    publish {
-        userOrg = 'bakumon'
-        groupId = 'me.bakumon'
-        artifactId = 'bulletinview'
-        publishVersion = '1.0.0'
-        desc = 'You can customize the layout of the bulletin board to rotate View.'
-        website = 'https://github.com/Bakumon/BulletinView'
-    }
+//    // JCenter
+//    // gradlew clean build bintrayUpload -PbintrayUser=BINTRAY_USERNAME -PbintrayKey=BINTRAY_KEY -PdryRun=false
+//    publish {
+//        userOrg = 'bakumon'
+//        groupId = 'me.bakumon'
+//        artifactId = 'bulletinview'
+//        publishVersion = '1.0.0'
+//        desc = 'You can customize the layout of the bulletin board to rotate View.'
+//        website = 'https://github.com/Bakumon/BulletinView'
+//    }
     lintOptions {
         abortOnError false
     }
